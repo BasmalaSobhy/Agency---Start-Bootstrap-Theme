@@ -1,0 +1,378 @@
+/*The style of the body*/
+body
+{
+    text-align: center;
+}
+
+/*Styles of elements that appear more than one time in the body*/
+
+/*The style of any element with class "hidden"*/
+.hidden
+{
+    display: none;
+}
+
+/*The color of all paragraphs in the body*/
+p
+{
+    color: #6c757d!important;
+}
+
+/*The general style of any button in the body*/
+button
+{
+    background-color: #fed136;
+    color: white;
+    border: 1px solid #fed136;
+    border-radius: 5px;
+    padding:20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*The style of all social media links*/
+.social a
+{
+    background-color: #212529;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    padding: 17px 0;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*The style of all social media links while hovering*/
+.social a:hover
+{
+    background-color: #fed136;
+}
+/*End of general style*/
+
+/*header style*/
+header
+{
+    background-image: url(../Images/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*nav style*/
+/*The style of the class "navbar"*/
+.navbar
+{
+    background-color: #212529;
+}
+
+/*The style of the button with class "navbar-toggler" in the nav*/
+.navbar-toggler
+{
+    font-weight: normal;
+    background-color: #fed136;
+    padding: 10px 15px;
+}
+
+/*The style of h3 heading in the nav*/
+nav h3
+{
+    color: #fed136;
+    font-size: 20px;
+}
+
+/*The style of links in the nav*/
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*The style of links in the nav while hovering*/
+nav a:hover
+{
+    color: #fed136;
+}
+/*End of nav*/
+
+/*The style of section with id "head"*/
+#head
+{
+    color: white;
+    padding: 18%;
+}
+
+/*The style of h1 heading in the section with id "head"*/
+#head h1
+{
+    font-size: 300%;
+    margin: 20px 0;
+}
+/*End of header*/
+
+/*section with id "service"*/
+#service
+{
+    margin: 50px auto;
+}
+
+/*The style of div in both "service" and "portfolio" sections*/
+#service>div, #portfolio>div
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+/*The style of the 3 div with class "ServDiv"*/
+.ServDiv
+{
+    padding: 20px;
+}
+
+/*The style of i in the "ServDiv" divs*/
+.ServDiv i
+{
+    background-color: #fed136;
+    color: white;
+    border: 1px solid #fed136;
+    padding: 30px;
+    font-weight: bold;
+}
+/*End of service*/
+
+/*General style for "portfolio", "team" and "about"*/
+#portfolio, #team, #about
+{
+    background-color: rgb(248, 249, 250);
+    padding:50px;
+}
+
+/*Section with id "portfolio"*/
+/*The style of 6 div with class "portfDiv"*/
+.portfDiv
+{
+    margin: 2% 0;
+}
+
+/*The style of div with class "caption" in portfolio*/
+.caption
+{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 3;
+}
+/*End of portfolio*/
+
+/*Section with id "about"*/
+#about .container
+{
+    margin: 50px auto;
+}
+
+/*The style of 4 div with class "aboutt"*/
+#about .aboutt
+{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/*The style of images with class "cir"*/
+#about .cir
+{
+    width: 100px;
+    height: 100px;
+    border: 7px solid rgba(0,0,0,.1);
+    border-color: rgb(233, 236, 239);
+    margin: 15px;
+}
+
+
+/*The style of h5 heading in the "about" section*/
+#about .col>h5
+{
+    background-color: #fed136;
+    color: white;
+    padding: 15px;
+    font-size: 90%;
+}
+/*End of "about" section*/
+
+/*Section with id "team"*/
+/*The style of direct child div in the "team" section*/
+#team>div
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*The style of images in the div with class "teamDiv"*/
+.teamDiv img
+{
+    width: 225px;
+    height: 225px;
+    border: 7px solid rgba(0,0,0,.1);
+}
+/*End of "team" section*/
+
+/*Section with id "img"*/
+#img
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px auto;
+    justify-content: space-evenly;
+}
+
+/*The style of the 4 images in the div with class "images"*/
+.images img
+{
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+}
+/*End of "img" section*/
+
+/*Section with id "contact"*/
+#contact
+{
+    background-color: #212529;
+    background-image: url("../Images/map-image.png");
+    background-size: cover;
+    padding: 70px 0;
+}
+
+/*The style of h1 heading in the "contact" section*/
+#contact h1
+{
+    color: white;
+}
+
+/*The style of the form in the "contact" section*/
+form
+{
+    margin-top: 70px;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+/*The style of the 3 inputs in the form*/
+#contact input
+{
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 25px;
+    width:100%;
+}
+
+/*The style of the input sith class "middle"*/
+.middle
+{
+    margin: 25px auto;
+}
+
+/*The style of the textarea in the form*/
+textarea
+{
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 240px;
+    margin: 25px auto;
+    width: 100%;
+}
+
+/*The style of the button in the form*/
+form button
+{
+    margin: 30px auto;
+}
+/*End of "contact" section*/
+
+/*The footer*/
+footer
+{
+    padding: 25px;
+}
+
+/*The style of the 2 links in the div with class "link"*/
+.link a
+{
+    text-decoration: none;
+    color: #fed136;
+}
+
+/*The style of the 2 links in the div with class "link" while hovering*/
+.link a:hover
+{
+    text-decoration: underline;
+}
+
+/*The style of the body with minimum width "768px"*/
+@media(min-width: 768px)
+{
+    /*header style*/
+    /*The style of h4 heading in the "head" section*/
+    #head h4
+    {
+        font-size: 300%;
+        font-weight: 400;
+    }
+    
+    /*The style of h1 heading in the "head" section*/
+    #head h1
+    {
+        font-size: 500%;
+    }
+    /*End of header style*/
+    
+    /*Section with id "about"*/
+    #about .aboutt
+    {
+        width: 50%;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    /*The style of 2 div with class "left"*/
+    .left
+    {
+        flex-direction: row-reverse;
+        width: 50%;
+    }
+    
+    /*The style of the div in the 2 div with class "left"*/
+    .left>div
+    {
+        text-align: right;
+    }
+    
+    
+    /*The style of 2 div with class "right"*/
+    .right
+    {
+        text-align: left;
+    }
+    
+    /*The style of images with class "cir"*/
+    #about .cir
+    {
+        width: 150px;
+        height: 150px;
+        justify-content: center;
+    }
+    
+    /*The style of h5 heading in the "about" section*/
+    #about .col>h5
+    {
+        padding: 20px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 43%;
+        font-size: 150%;
+    }
+    /*End of "about" section*/
+}
+/*End of "768px" width*/
